@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 University of Alberta | 
 ----------------|-----------------------------------
 October 30th 2018   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
-2:00-5:00 pm   | **Co-instructors**: 
+2:00 - 5:00 pm   | **Co-instructors**: 
 
 ## General Information
 
@@ -40,7 +40,7 @@ Time   | Goal
 2:10  | [Github Introduction](Github/Github.html)
 2:45  | [Github and R Studio](Git.rstudio/Git.rstudio.html)
 3:30  | *coffee break*
-4:00  | [Creating Reports with R Studio](Reports/Reports.html)
+3:45  | [Creating Reports with R Studio](Reports/Reports.html)
 4:30  | [Publish Reports and websites](Website/website.html)
 4:45  | Final discussions
 
