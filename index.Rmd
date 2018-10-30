@@ -1,6 +1,6 @@
 ---
 title: "Using R and GitHub: reproducibility in research"
-date: "November 2018"
+date: "October 2018"
 output: html_document
 ---
 
@@ -14,8 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 University of Alberta | 
 ----------------|-----------------------------------
-November 2018   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
-TBD   | **Co-instructors**: 
+October 30th 2018   | **Instructor**: [Alex Filazzola](http://www.filazzola.info)
+2:00 - 5:00 pm   | **Co-instructors**: 
 
 ## General Information
 
@@ -23,9 +23,10 @@ Statistical software that are also programming languages, such as R, are excelle
 
 **Who**: The course is aimed at R beginners and novice to intermediate analysts. You do not need to have previous knowledge of R.
 
-**Where**: University of Alberta
+**Where**: University of Alberta, Edmonton, CW 410 Conference Room, [Campus Map](images/CampusMap.jpg) 
 
 **Requirements**: Participants should bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with administrative privileges. If you want to work along during tutorial, you must have both Git & R studio installed on your own computer (See below for instructions). However, you are still welcome to attend because all examples will be presented via a projector in the classroom. 
+
 
 **Contact**: Please contact alex.filazzola@outlook.com for more information.
 
@@ -35,13 +36,13 @@ Statistical software that are also programming languages, such as R, are excelle
 
 Time   | Goal
 -------|------------
-1:00   | Meet & greet. Test software
-1:10  | [Github Introduction](Github/Github.html)
-1:45  | [Github and R Studio](Git.rstudio/Git.rstudio.html)
-2:30  | *coffee break*
-3:00  | [Creating Reports with R Studio](Reports/Reports.html)
-3:30  | [Publish Reports and websites](Website/website.html)
-3:45  | Final discussions
+2:00   | Meet & greet. Test software
+2:10  | [Github Introduction](Github/Github.html)
+2:45  | [Github and R Studio](Git.rstudio/Git.rstudio.html)
+3:30  | *coffee break*
+3:45  | [Creating Reports with R Studio](Reports/Reports.html)
+4:30  | [Publish Reports and websites](Website/website.html)
+4:45  | Final discussions
 
 
 ## Software
