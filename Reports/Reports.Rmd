@@ -98,7 +98,7 @@ library(DT)
 datatable(mtcars) 
 ```
 
-Alternatively there are many ways to specify the `kable` function that can be found [here](https://haozhu233.github.io/kableExtra/awesome_table_in_html.html)
+Alternatively there are many ways to specify the `kable` function that can be found [here](https://haozhu233.github.io/kableExtra/awesome_table_in_html.html). 
 
 ### 3.4 Other chunk features
 
