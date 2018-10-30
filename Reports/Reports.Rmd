@@ -23,7 +23,7 @@ For example, lets say you have an experiment that surveys many times throughout 
 
 Here are some examples below of the differences
 
-Markdown          | HTML          | Output
+HMTL          | Markdown          | Output
 -----------------|----------------|-------------------
 `<b> text </b>`|`** text ** `| **text**
 `<h4> heading </h4>` | ` #### heading ` |  #### heading
