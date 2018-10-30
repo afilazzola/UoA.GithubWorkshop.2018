@@ -338,8 +338,8 @@ shinyUI(fluidPage(
   )
   ))</code></pre>
 <p>Take a look specifically at the <code>selectInput</code> command. The first argument is our <code>variable</code> call from the server and is what connects the user input to the function we wrote on the server side. The “Variable:” is just a text description for the user to understand what the dropdown input menu is doing. Then final arguments are what the options will be here. We have taken the column headings from the <code>mtcars</code> dataset. The text infront is again just to make it easier for the user.</p>
-<p>The final item is to make the plot. That part is simple with calling <code>plotOutput</code> and the <code>plot</code> output from our server.</p>
-<p>The rest of the code here is to pretty up our User Interface by generating a side panel.</p>
+<p>The final item is to make the plot. That part is simple with calling <code>plotOutput</code> and the <code>plot</code> output from our server.The rest of the code here is to pretty up our User Interface by generating a side panel.</p>
+<p>Unforatuntely, Shiny Apps because they are interactive are not supported through the webpage option on Github. However, <a href="https://www.shinyapps.io/">Shiny</a> themeselves allow you to put your App on their website once you set up an account. They allow free hosting with some limitations. That is currently where my climate application resides.</p>
 </div>
 
 
