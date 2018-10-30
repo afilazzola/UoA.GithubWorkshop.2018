@@ -85,6 +85,21 @@ The full dataset is available below:
 knitr::kable(cars)
 ```
 
+Perhaps though you have a large dataset and you want to be able to go through it more easily. For example the mtcars dataset that is 32 rows by 11 columns can look unwieldy in a report. 
+
+```{r}
+knitr::kable(mtcars)
+```
+
+This is where `datatable` can come in that provides a better user interface for data frames that are presented in reports. Allowing for easier movement within the dataset and the option to search. 
+
+```{r warning=FALSE, message=FALSE}
+library(DT)
+datatable(mtcars) 
+```
+
+Alternatively there are many ways to specify the `kable` function that can be found [here](https://haozhu233.github.io/kableExtra/awesome_table_in_html.html)
+
 ### 3.4 Other chunk features
 
 There are a few other manipulations you can add to your R Chunk that could come in handy when presenting your findings. Two other features I use often are the `warning` and `message`. Warnings often arise during your data analysis, and sometimes they can be disregarded. For example, when NAs are treated as zeros and you want them to be treated as zeros. Having this message appear in your report can make it look untidy or that you are ignoring something that is potentially relevant. Of course, you may not always want to ignore warnings, but assuming you do, adding it within the R chunch label can help `{r warning=FALSE}`. The same is true with messages. These most commonly arise when you load packages and certain functions are over-written (i.e. masked) by new functions. I tend to mute both of these options by setting `{r message=FALSE, warning=FALSE}`. 
